@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/nestea/Documentos/Mojo-Hexapod/syn/TestCam_isim_beh.exe" -prj "/home/nestea/Documentos/Mojo-Hexapod/syn/TestCam_beh.prj" "work.TestCam" "work.glbl" 

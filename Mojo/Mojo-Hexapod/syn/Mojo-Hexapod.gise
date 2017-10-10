@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="../Mojo-Hexapod.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="../ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestCam_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestCam_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TestCam_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestCam_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1505834876" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1505834876">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1505835283" xil_pn:in_ck="-239017743070244400" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1505835283">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../TestCam.v"/>
+      <outfile xil_pn:name="../src/avr_interface.v"/>
+      <outfile xil_pn:name="../src/blob_detector.v"/>
+      <outfile xil_pn:name="../src/blob_detector_tb.v"/>
+      <outfile xil_pn:name="../src/cclk_detector.v"/>
+      <outfile xil_pn:name="../src/color_threshold.v"/>
+      <outfile xil_pn:name="../src/counter.v"/>
+      <outfile xil_pn:name="../src/mojo_top.v"/>
+      <outfile xil_pn:name="../src/mojo_top_tb.v"/>
+      <outfile xil_pn:name="../src/ov2640.v"/>
+      <outfile xil_pn:name="../src/ov2640_reg.v"/>
+      <outfile xil_pn:name="../src/pipeline.v"/>
+      <outfile xil_pn:name="../src/ram_bus.v"/>
+      <outfile xil_pn:name="../src/ram_bus_tb.v"/>
+      <outfile xil_pn:name="../src/reg_ctrl.v"/>
+      <outfile xil_pn:name="../src/rgb_to_hsv.v"/>
+      <outfile xil_pn:name="../src/rgb_to_hsv_tb.v"/>
+      <outfile xil_pn:name="../src/run_fifo_manager.v"/>
+      <outfile xil_pn:name="../src/run_finder.v"/>
+      <outfile xil_pn:name="../src/run_finder_tb.v"/>
+      <outfile xil_pn:name="../src/sccb.v"/>
+      <outfile xil_pn:name="../src/sccb_tb.v"/>
+      <outfile xil_pn:name="../src/sdram.v"/>
+      <outfile xil_pn:name="../src/sdram_tb.v"/>
+      <outfile xil_pn:name="../src/serial_rx.v"/>
+      <outfile xil_pn:name="../src/serial_tx.v"/>
+      <outfile xil_pn:name="../src/servo.v"/>
+      <outfile xil_pn:name="../src/servo_controller.v"/>
+      <outfile xil_pn:name="../src/spi_slave.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1505834879" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7660612574081010504" xil_pn:start_ts="1505834878">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1505834879" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7814259117891718394" xil_pn:start_ts="1505834879">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1505834879" xil_pn:in_ck="-3959401550692586007" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3963840633017297749" xil_pn:start_ts="1505834879">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../ipcore_dir/camera_fifo.ngc"/>
+      <outfile xil_pn:name="../ipcore_dir/camera_fifo.v"/>
+      <outfile xil_pn:name="../ipcore_dir/feature_ram.ngc"/>
+      <outfile xil_pn:name="../ipcore_dir/feature_ram.v"/>
+      <outfile xil_pn:name="../ipcore_dir/hsv_div.ngc"/>
+      <outfile xil_pn:name="../ipcore_dir/hsv_div.v"/>
+      <outfile xil_pn:name="../ipcore_dir/run_fifo.ngc"/>
+      <outfile xil_pn:name="../ipcore_dir/run_fifo.v"/>
+      <outfile xil_pn:name="../ipcore_dir/run_ram.ngc"/>
+      <outfile xil_pn:name="../ipcore_dir/run_ram.v"/>
+      <outfile xil_pn:name="../ipcore_dir/sdram_clk_gen.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1505835283" xil_pn:in_ck="6027111626491792257" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1505835283">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../TestCam.v"/>
+      <outfile xil_pn:name="../ipcore_dir/camera_fifo.v"/>
+      <outfile xil_pn:name="../ipcore_dir/feature_ram.v"/>
+      <outfile xil_pn:name="../ipcore_dir/hsv_div.v"/>
+      <outfile xil_pn:name="../ipcore_dir/run_fifo.v"/>
+      <outfile xil_pn:name="../ipcore_dir/run_ram.v"/>
+      <outfile xil_pn:name="../ipcore_dir/sdram_clk_gen.v"/>
+      <outfile xil_pn:name="../src/avr_interface.v"/>
+      <outfile xil_pn:name="../src/blob_detector.v"/>
+      <outfile xil_pn:name="../src/blob_detector_tb.v"/>
+      <outfile xil_pn:name="../src/cclk_detector.v"/>
+      <outfile xil_pn:name="../src/color_threshold.v"/>
+      <outfile xil_pn:name="../src/counter.v"/>
+      <outfile xil_pn:name="../src/mojo_top.v"/>
+      <outfile xil_pn:name="../src/mojo_top_tb.v"/>
+      <outfile xil_pn:name="../src/ov2640.v"/>
+      <outfile xil_pn:name="../src/ov2640_reg.v"/>
+      <outfile xil_pn:name="../src/pipeline.v"/>
+      <outfile xil_pn:name="../src/ram_bus.v"/>
+      <outfile xil_pn:name="../src/ram_bus_tb.v"/>
+      <outfile xil_pn:name="../src/reg_ctrl.v"/>
+      <outfile xil_pn:name="../src/rgb_to_hsv.v"/>
+      <outfile xil_pn:name="../src/rgb_to_hsv_tb.v"/>
+      <outfile xil_pn:name="../src/run_fifo_manager.v"/>
+      <outfile xil_pn:name="../src/run_finder.v"/>
+      <outfile xil_pn:name="../src/run_finder_tb.v"/>
+      <outfile xil_pn:name="../src/sccb.v"/>
+      <outfile xil_pn:name="../src/sccb_tb.v"/>
+      <outfile xil_pn:name="../src/sdram.v"/>
+      <outfile xil_pn:name="../src/sdram_tb.v"/>
+      <outfile xil_pn:name="../src/serial_rx.v"/>
+      <outfile xil_pn:name="../src/serial_tx.v"/>
+      <outfile xil_pn:name="../src/servo.v"/>
+      <outfile xil_pn:name="../src/servo_controller.v"/>
+      <outfile xil_pn:name="../src/spi_slave.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1505835286" xil_pn:in_ck="6027111626491792257" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2932128993089081359" xil_pn:start_ts="1505835283">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestCam_beh.prj"/>
+      <outfile xil_pn:name="TestCam_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1505835286" xil_pn:in_ck="487107883595066761" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6719586537972938450" xil_pn:start_ts="1505835286">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TestCam_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

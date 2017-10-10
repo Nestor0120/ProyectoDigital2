@@ -1,0 +1,4 @@
+verilog work ../ov2640.v
+verilog work ../camera_fifo.v
+verilog work ../ov2640_reg.v
+verilog work ../sccb.v

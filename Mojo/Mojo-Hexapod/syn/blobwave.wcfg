@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/justin/workspace/Mojo-Hexapod/syn/blob_detector_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="blob_detector_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="40" />
+   <wvobject fp_name="/blob_detector_tb/DUT/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[22:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[22:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/in_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in_valid</obj_property>
+      <obj_property name="ObjectShortName">in_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/rd_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/out_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_valid</obj_property>
+      <obj_property name="ObjectShortName">out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/empty" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/fifo_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_out[20:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_out[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/end_frame_q" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">end_frame_q</obj_property>
+      <obj_property name="ObjectShortName">end_frame_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/label_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">label_d[9:0]</obj_property>
+      <obj_property name="ObjectShortName">label_d[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_ram/wea" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_ram/addra" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addra[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_ram/dina" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dina[126:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[126:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_ram/addrb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrb[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_ram/doutb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">doutb[126:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[126:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/used_prt_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">used_prt_q[9:0]</obj_property>
+      <obj_property name="ObjectShortName">used_prt_q[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/free_prt_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">free_prt_q[9:0]</obj_property>
+      <obj_property name="ObjectShortName">free_prt_q[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/ram_feature_ptr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_feature_ptr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_feature_ptr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/ram_feature_mass" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_feature_mass[18:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_feature_mass[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/ram_feature_min_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_feature_min_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_feature_min_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/ram_feature_max_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_feature_max_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_feature_max_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/ram_feature_min_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_feature_min_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_feature_min_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/ram_feature_max_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_feature_max_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_feature_max_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/ram_feature_grav_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_feature_grav_x[27:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_feature_grav_x[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/ram_feature_grav_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_feature_grav_y[27:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_feature_grav_y[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_ptr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">feature_ptr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_ptr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_mass" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">feature_mass[18:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_mass[18:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_min_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">feature_min_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_min_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_max_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">feature_max_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_max_x[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_min_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">feature_min_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_min_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_grav_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">feature_grav_x[27:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_grav_x[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_max_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">feature_max_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_max_y[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/blob_detector_tb/DUT/feature_grav_y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">feature_grav_y[27:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_grav_y[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

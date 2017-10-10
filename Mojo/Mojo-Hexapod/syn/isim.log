@@ -1,0 +1,41 @@
+ISim log file
+Running: /home/nestea/Documentos/Mojo-Hexapod/syn/TestCam_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/nestea/Documentos/Mojo-Hexapod/syn/TestCam_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.68d (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is nestea, on host unknown.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       ISIM
+Server name:   localhost
+License path:  /home/nestea/.Xilinx/Xilinx.lic:/opt/Xilinx/14.6/ISE_DS/ISE//data/*.lic:/opt/Xilinx/14.6/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.6/ISE_DS/ISE//coregen/core_licenses/XilinxFree.lic:@localhost:
+FLEXnet Licensing error:-15,570.  System Error: 115 "Operation now in progress"
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Finished circuit initialization process.
+# isim force add /TestCam/clk 1 -radix bin -value 0 -radix bin -time 15 ns -repeat 30 ns
+# isim force add /TestCam/clk 1 -radix bin -value 0 -radix bin -time 15 ns -repeat 30 ns
+# isim force add /TestCam/clk 1 -radix bin -value 1 -radix bin -time 5 ns -repeat 10 ns
+# isim force add /TestCam/clk 1 -radix bin -value 1 -radix bin -time 5 ns -repeat 10 ns
+# run all
+The simulator has terminated in an unexpected manner.  Please review the ISim log (isim.log) for details.
+# exit 0

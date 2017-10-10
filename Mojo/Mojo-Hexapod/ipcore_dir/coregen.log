@@ -1,0 +1,58 @@
+Welcome to Xilinx CORE Generator.
+Help system initialized.
+The IP Catalog has been reloaded.
+Opening project file /home/justin/workspace/Mojo-Hexapod/ipcore_dir/coregen.cgp.
+WARNING:sim:991 - The project IP instance 'hsv_div' for IP 'Divider Generator
+   v3.0' was generated with a different version of the IP than is currently in
+   the IP Catalog. It was originally generated using IP with the packaged
+   timestamp '2013-06-08+23:00'; the IP in the current catalog has a different
+   packaged timestamp '2013-10-13+18:46'. This mismatch is due to changes made
+   to the IP in the user repositories. It may affect some functionality of the
+   IP, if there are differences between these two versions of the IP.
+Recustomize and Generate (Under Original Project Settings)INFO:sim:172 - Generating IP...
+WARNING:sim - A core named 'sdram_clk_gen' already exists in the project. Output
+   products for this core may be overwritten.
+Resolving generics for 'sdram_clk_gen'...
+WARNING:sim - A core named 'sdram_clk_gen' already exists in the project. Output
+   products for this core may be overwritten.
+Applying external generics to 'sdram_clk_gen'...
+Delivering associated files for 'sdram_clk_gen'...
+WARNING:sim - Component clk_wiz_v3_6 does not have a valid model name for
+   Verilog synthesis
+Delivering EJava files for 'sdram_clk_gen'...
+Delivered 3 files into directory
+/home/justin/workspace/Mojo-Hexapod/ipcore_dir/tmp/_cg/sdram_clk_gen
+Delivered 1 file into directory
+/home/justin/workspace/Mojo-Hexapod/ipcore_dir/tmp/_cg/sdram_clk_gen
+Generating ASY schematic symbol...
+Loading device for application Rf_Device from file '6slx9.nph' in environment
+/opt/Xilinx/14.7/ISE_DS/ISE/.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating ISE project...
+XCO file found: sdram_clk_gen.xco
+XMDF file found: sdram_clk_gen_xmdf.tcl
+Adding /home/justin/workspace/Mojo-Hexapod/ipcore_dir/tmp/_cg/sdram_clk_gen.asy
+-view all -origin_type imported
+Adding /home/justin/workspace/Mojo-Hexapod/ipcore_dir/tmp/_cg/sdram_clk_gen.ucf
+-view all -origin_type created
+Adding /home/justin/workspace/Mojo-Hexapod/ipcore_dir/tmp/_cg/sdram_clk_gen.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/justin/workspace/Mojo-Hexapod/ipcore_dir/tmp/_cg/sdram_clk_gen.v" into
+   library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding /home/justin/workspace/Mojo-Hexapod/ipcore_dir/tmp/_cg/sdram_clk_gen.veo
+-view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/sdram_clk_gen"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'coregen'.
+Closed project file.
