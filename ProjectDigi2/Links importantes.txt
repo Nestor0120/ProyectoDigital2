@@ -1,0 +1,1 @@
+Teoria del buffer ciclico - https://es.wikipedia.org/wiki/Buffer_circular
