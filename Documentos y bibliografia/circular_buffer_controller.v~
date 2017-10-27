@@ -1,5 +1,24 @@
 `timescale 1ns / 1ps
-
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    11:16:53 07/09/2014 
+// Design Name:
+// Module Name:    circular_buffer_controller 
+// Project Name:   
+// Target Devices: 
+// Tool versions: 
+// Description: This is a circular buffer controller, or multiple buffers
+// controller.
+// 
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
 
 module circular_buffer_controller
 #(
@@ -95,8 +114,8 @@ end
 //------------------temp signals-------------------
 reg tmp_wr_req_ack     = 1'b0;
 reg tmp_rd_req_ack     = 1'b0;
-reg tmp_wr_req_result  = 1'b1;  
-reg tmp_rd_req_result  = 1'b0;    
+reg tmp_wr_req_result  = 1'b1;  //有空的码流buffer；
+reg tmp_rd_req_result  = 1'b0;    //没有满的码流buffer；
 reg tmp_wr_finish_ack  = 1'b0;
 reg tmp_rd_finish_ack  = 1'b0;
 
