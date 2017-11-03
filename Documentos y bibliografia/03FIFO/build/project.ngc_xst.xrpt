@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<document OS="lin64" product="ISE" version="14.7">
+<document OS="lin64" product="ISE" version="14.6">
 
   <!--The data in this file is primarily intended for consumption by Xilinx tools.
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Thu Oct 19 19:26:36 2017">
+  <application stringID="Xst" timeStamp="Fri Oct 27 10:03:55 2017">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="PATH"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64"/>
+          <item stringID="value" value="/opt/Xilinx/14.6/ISE_DS/ISE//bin/lin64:/opt/Xilinx/14.6/ISE_DS/ISE/bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/rtems-4.11/bin"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE/"/>
+          <item stringID="value" value="/opt/Xilinx/14.6/ISE_DS/ISE/"/>
         </row>
         <row stringID="row" value="2">
           <item stringID="variable" value="LD_LIBRARY_PATH"/>
-          <item stringID="value" value="/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64"/>
+          <item stringID="value" value="/opt/Xilinx/14.6/ISE_DS/ISE//lib/lin64"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
         <item stringID="User_EnvOsname" value="Ubuntu"/>
-        <item stringID="User_EnvOsrelease" value="Ubuntu 17.04"/>
+        <item stringID="User_EnvOsrelease" value="Ubuntu 14.04.5 LTS"/>
       </item>
-      <item stringID="User_EnvHost" value="lisseth-300-1220la"/>
+      <item stringID="User_EnvHost" value="nestea-Lenovo-ideapad-300-14ISK"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="AMD Athlon(tm) II X2 235e Processor"/>
-          <item stringID="speed" value="1500.000 MHz"/>
+          <item stringID="arch" value="Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz"/>
+          <item stringID="speed" value="2863.250 MHz"/>
         </row>
       </table>
     </section>

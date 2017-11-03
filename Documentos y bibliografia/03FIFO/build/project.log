@@ -1,4 +1,4 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.6 - xst P.68d (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> 
 
@@ -50,24 +50,24 @@ RTL Output                         : yes
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "/home/lisseth/FPGA-Game-D1/HW/RTL/00EJEMPLOS/03FIFO/fifo.v" into library work
+Analyzing Verilog file "/home/nestea/Documentos/ProyectoDigital2/Documentos y bibliografia/03FIFO/fifo.v" into library work
 Parsing module <fifo>.
-INFO:HDLCompiler:693 - "/home/lisseth/FPGA-Game-D1/HW/RTL/00EJEMPLOS/03FIFO/fifo.v" Line 19. parameter declaration becomes local in fifo with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/nestea/Documentos/ProyectoDigital2/Documentos y bibliografia/03FIFO/fifo.v" Line 19. parameter declaration becomes local in fifo with formal parameter declaration list
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
 
 Elaborating module <fifo>.
-WARNING:HDLCompiler:91 - "/home/lisseth/FPGA-Game-D1/HW/RTL/00EJEMPLOS/03FIFO/fifo.v" Line 69: Signal <full_reg> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-ERROR:HDLCompiler:1128 - "/home/lisseth/FPGA-Game-D1/HW/RTL/00EJEMPLOS/03FIFO/fifo.v" Line 69: Assignment under multiple single edges is not supported for synthesis
+WARNING:HDLCompiler:91 - "/home/nestea/Documentos/ProyectoDigital2/Documentos y bibliografia/03FIFO/fifo.v" Line 69: Signal <full_reg> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+ERROR:HDLCompiler:1128 - "/home/nestea/Documentos/ProyectoDigital2/Documentos y bibliografia/03FIFO/fifo.v" Line 69: Assignment under multiple single edges is not supported for synthesis
 INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:1128"
 Module fifo remains a blackbox, due to errors in its contents
-WARNING:HDLCompiler:1499 - "/home/lisseth/FPGA-Game-D1/HW/RTL/00EJEMPLOS/03FIFO/fifo.v" Line 4: Empty module <fifo> remains a black box.
+WARNING:HDLCompiler:1499 - "/home/nestea/Documentos/ProyectoDigital2/Documentos y bibliografia/03FIFO/fifo.v" Line 4: Empty module <fifo> remains a black box.
 --> 
 
 
-Total memory usage is 344116 kilobytes
+Total memory usage is 339496 kilobytes
 
 Number of errors   :    1 (   0 filtered)
 Number of warnings :    2 (   0 filtered)
